@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-shirt Design Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>T-shirt Design Tool</h1>
+    <div class="controls">
+        <button id="add-text">Add Text</button>
+        <input type="file" id="upload-image" accept="image/*">
+    </div>
+    <!-- Add to HTML -->
+<div class="controls">
+    <button id="add-text">Add Text</button>
+    <input type="color" id="text-color" value="#000000">
+    <input type="range" id="text-size" min="10" max="100" value="30">
+    <input type="file" id="upload-image" accept="image/*">
+</div>s
+
+    <canvas id="tshirt-canvas" width="500" height="600"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
